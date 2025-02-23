@@ -1,0 +1,10 @@
+package ocp.after;
+
+public class Cat extends Animal{
+
+    @Override
+    void sound() {
+        System.out.println("meow");
+    }
+
+}
